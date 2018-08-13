@@ -1,0 +1,72 @@
+/******************************
+    ROCHESTER REGIONAL HEALTH
+    -- Default Font Styles --
+
+    (C) 2018. All Rights Reserved.
+    Strategic Marketing & Communications
+    Digital Engagement - Web Development
+
+******************************/
+
+
+      /*** Default Font styles ***/
+        h1 {font-family: 'Roboto',Helvetica,Arial,Lucida,sans-serif;line-height: 1.2em;font-weight: 700;font-size: 50px;font-style: normal;margin-bottom: 0;}
+        h2 {font-family: 'Roboto',Helvetica,Arial,Lucida,sans-serif;line-height: 1.3em;font-weight: 700;font-size: 38px;font-style: normal;margin-bottom: 0;}
+        h3 {font-family: 'Roboto',Helvetica,Arial,Lucida,sans-serif;line-height: 1.2em;font-weight: 500;font-size: 30px;font-style: normal;margin-bottom: 0;}
+        h4 {font-family: 'Roboto',Helvetica,Arial,Lucida,sans-serif;line-height: 1.2em;font-weight: 500;font-size: 26px;font-style: normal;margin-bottom: 0;}
+        p  {font-family: 'Roboto',Helvetica,Arial,Lucida,sans-serif;line-height: 1.3em;font-weight: 400;font-size: 18px;font-style: normal;margin-top: 10px;}
+        
+      /*** Responsive Styles Large Desktop And Above ***/
+      @media all and (min-width: 1405px) {
+        h1 {line-height: 1.2em;font-size: 60px;margin-bottom: 0;padding-top: 20px;padding-bottom: 20px;}
+        h2 {line-height: 1.3em;font-size: 42px;margin-bottom: 0;}
+        h3 {line-height: 1.2em;font-size: 34px;margin-bottom: 0;}
+        h4 {line-height: 1.2em;font-size: 30px;margin-bottom: 0;}
+        p  {line-height: 1.4em;font-size: 22px;margin-top: 10px;}
+          }
+
+      /*** Responsive Styles Standard Desktop Only ***/
+      @media all and (min-width: 1100px) and (max-width: 1405px) {
+        h1 {line-height: 1.2em;font-size: 50px;margin-bottom: 0;padding-top: 20px;padding-bottom: 20px;}
+        h2 {line-height: 1.3em;font-size: 38px;margin-bottom: 0;}
+        h3 {line-height: 1.2em;font-size: 30px;margin-bottom: 0;}
+        h4 {line-height: 1.2em;font-size: 26px;margin-bottom: 0;}
+        p {line-height: 1.3em;font-size: 18px;margin-top: 10px;}
+          }
+
+      /*** Responsive Styles Tablet And Below ***/
+      @media all and (max-width: 980px) {
+        h1 {line-height: 1.2em;font-size: 40px;margin-bottom: 0;padding-top: 20px;padding-bottom: 20px;}
+        h2 {line-height: 1.3em;font-size: 30px;margin-bottom: 0;}
+        h3 {line-height: 1.2em;font-size: 26px;margin-bottom: 0;}
+        h4 {line-height: 1.2em;font-size: 22px;margin-bottom: 0;}
+        p {line-height: 1.2em;font-size: 16px;margin-top: 10px;}
+          }
+
+      /*** Responsive Styles Tablet Only ***/
+      @media all and (min-width: 768px) and (max-width: 980px) {
+        h1 {line-height: 1.2em;font-size: 40px;margin-bottom: 0;padding-top: 10px;padding-bottom: 10px;}
+        h2 {line-height: 1.3em;font-size: 30px;margin-bottom: 0;}
+        h3 {line-height: 1.2em;font-size: 26px;margin-bottom: 0;}
+        h4 {line-height: 1.2em;font-size: 22px;margin-bottom: 0;}
+        p {line-height: 1.4em;font-size: 16px;margin-top: 10px;}
+          }
+
+      /*** Responsive Styles Smartphone Only ***/
+      @media all and (max-width: 767px) {
+        h1 {line-height: 1.2em;font-size: 30px;margin-bottom: 0;padding-top: 5px;padding-bottom: 5px;}
+        h2 {line-height: 1.3em;font-size: 26px;margin-bottom: 0;}
+        h3 {line-height: 1.2em;font-size: 22px;margin-bottom: 0;}
+        h4 {line-height: 1.2em;font-size: 20px;margin-bottom: 0;}
+        p {line-height: 1.4em;font-size: 14px;margin-top: 10px;}
+          }
+
+      /*** Responsive Styles Smartphone Portrait ***/
+      @media all and (max-width: 479px) {
+        h1 {line-height: 1.2em;font-size: 30px;margin-bottom: 0;padding-top: 5px;padding-bottom: 5px;}
+        h2 {line-height: 1.3em;font-size: 26px;margin-bottom: 0;}
+        h3 {line-height: 1.2em;font-size: 22px;margin-bottom: 0;}
+        h4 {line-height: 1.2em;font-size: 20px;margin-bottom: 0;}
+        p {line-height: 1.4em;font-size: 14px;margin-top: 10px;}
+          }
+
